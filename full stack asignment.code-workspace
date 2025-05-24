@@ -1,0 +1,60 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/full stack asignment"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "full stack",
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "xprotocol",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "localhost",
+				"database": "MySQL",
+				"username": "root",
+				"connectionTimeout": 30,
+				"password": ""
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "default",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "localhost2",
+				"database": "MySQL",
+				"username": "root",
+				"password": "password",
+				"connectionTimeout": 30
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "xprotocol",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MariaDB",
+				"name": "localhost3",
+				"database": "MangoDB",
+				"username": "root",
+				"connectionTimeout": 30,
+				"password": ""
+			}
+		]
+	}
+}
